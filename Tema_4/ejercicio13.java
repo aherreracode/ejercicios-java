@@ -13,21 +13,7 @@ public class ejercicio13 {
 
     int valor3 = s.nextInt();
 
-    if ((valor 1 >= valor2)&&(valor1 >= valor3)) {
 
-      int valor1f = ("Es el numero mayor");
-
-    }else if ((valor 1 < valor2)&&(valor1 < valor3)){
-
-      int valor1f = ("Es el numero menor");
-
-    }else if (((valor 1 > valor2)&&(valor1 < valor3))&&((valor 1 < valor2)&&(valor1 > valor3))){
-
-      int valor1f = ("Es el numero intermedio");
-
-    }
-
-    System.out.printf("&d",valor1f)
 
   }
 }
