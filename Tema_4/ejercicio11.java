@@ -5,7 +5,7 @@ public class ejercicio11 {
 
     Scanner s = new Scanner(System.in);
 
-    System.out.print("Introduzca hora y minutos separado por espacios:");
+    System.out.print("Introduzca hora y minutos separado por espacios: \n");
 
     int hora = s.nextInt();
 

@@ -5,15 +5,47 @@ public class ejercicio13 {
 
     Scanner s = new Scanner(System.in);
 
-    System.out.print("Introduzca 3 numeros, separados por espacios:");
+    double a;
 
-    int valor1 = s.nextInt();
+    double b;
 
-    int valor2 = s.nextInt();
+    double c;
 
-    int valor3 = s.nextInt();
+    double aux = 0;
 
+    System.out.println("Introduce el primer numero a ordenar:");
 
+    a = Double.parseDouble(s.nextLine());
 
+    System.out.println("Introduce el segundo numero a ordenar:");
+
+    b = Double.parseDouble(s.nextLine());
+
+    System.out.println("Introduce el tercer numero a ordenar:");
+
+    c = Double.parseDouble(s.nextLine());
+    
+    if (a > b){
+
+      aux = a;
+      a = b;
+      b = aux;
+
+    }
+    if (b > c){
+
+      aux = b;
+      b = c;
+      c = aux; 
+
+    }
+    if (a > b){
+
+      aux = a;
+      a = b;
+      b = aux;
+
+    }
+    System.out.printf("Numero menor: %.2f Numero intermedio: %.2f Numero mayor: %.2f",a,b,c);
   }
 }
