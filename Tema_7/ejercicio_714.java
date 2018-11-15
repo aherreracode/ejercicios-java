@@ -11,11 +11,13 @@ public class ejercicio14 {
     }
 
     System.out.println(" ");
+    System.out.println("Array inicial:");
+    System.out.println("┌────────────┬────────────┬────────────┬────────────┬────────────┬────────────┬────────────┬────────────┐");
+    System.out.println("│      0     │     1      │      2     │      3     │      4     │      5     │      6     │      7     │");
+    System.out.println("├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤");
+    System.out.printf("│%12s│%12s│%12s│%12s│%12s│%12s│%12s│%12s│\n",palabra[0],palabra[1],palabra[2],palabra[3],palabra[4],palabra[5],palabra[6],palabra[7]);
+    System.out.println("└────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┘");
 
-    //Muestra el antiguo array
-    for(int i=0; i < 8; i++){
-      System.out.println(palabra[i]);
-    }
 
     int contador = 0;
     int contador1 = 7;
@@ -46,12 +48,20 @@ public class ejercicio14 {
       color = false;
     }
 
-    System.out.println("");
+    System.out.println(" ");
+    System.out.println("Array final:");
+    System.out.println("┌────────────┬────────────┬────────────┬────────────┬────────────┬────────────┬────────────┬────────────┐");
+    System.out.println("│      0     │     1      │      2     │      3     │      4     │      5     │      6     │      7     │");
+    System.out.println("├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤");
+    System.out.printf("│%12s│%12s│%12s│%12s│%12s│%12s│%12s│%12s│\n",nuevo[0],nuevo[1],nuevo[2],nuevo[3],nuevo[4],nuevo[5],nuevo[6],nuevo[7]);
+    System.out.println("└────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┘");
 
-    //Muestra el nuevo array
-    for(int i=0; i < 8; i++){
-      System.out.println(nuevo[i]);
-    }
+    
+
+
+
+
+
 
   }
 }
