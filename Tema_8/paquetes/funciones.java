@@ -363,5 +363,48 @@ public class funciones {
 
     return x;
   }
+  //: Dice si un número es o no punto de silla, es decir,
+  //mínimo en su fila y máximo en su columna.
+
+
+  public static boolean esPuntoDeSilla(int x[][], int fil, int col, int numQuiere){
+
+    
+
+    int colRev;
+    int filS;
+
+    for (int i=0; i < fil ;i++){
+      int minFil = x[i][0];
+
+      for (int j=0; j < col ; j++){
+
+        int maxCol = x[0].length;
+        
+        if (minfil > x[i][j]){
+          minFil = x[i][j];
+          colRev = j;
+          filS = i;
+        }
+
+        for (int c=0; c < fil; c++){
+          if (maxCol < x[c][colRev]){
+            maxCol = x[c][colRev]; 
+          }
+        }
+  
+        if (minFil == maxcol){
+          System.out.print("El numero de la posicion: ["+filS+"]"+"["+colRev+"] es "+minfil+", es un numero silla.");
+        }
+
+      }
+
+
+
+
+    }
+
+    return x;
+  }
 
 }
