@@ -39,7 +39,7 @@ public class ejercicio03 {
             switch (num) {
                 case 1:
                     System.out.println("Introduce numero de disco:");
-                    num = Integer.parseInt(sc.nextLine());
+                    int aux = Integer.parseInt(sc.nextLine());
 
                     System.out.println("Introduce el autor:");
                     String autor = sc.nextLine();
@@ -53,7 +53,7 @@ public class ejercicio03 {
                     System.out.println("Introduce la duracion en minutos:");
                     int duracion = Integer.parseInt(sc.nextLine());
 
-                    coleccion[num] = new Disco(autor, titulo, genero, duracion);
+                    coleccion[aux] = new Disco(autor, titulo, genero, duracion);
                     break;
                 case 2:
                     System.out.println("Introduce numero de disco:");
